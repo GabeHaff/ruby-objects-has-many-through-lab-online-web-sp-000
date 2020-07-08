@@ -26,6 +26,7 @@ def appointments
 Appointment.all.select do |appt|
   appt.self
 end 
+end 
 
 def patients
   
