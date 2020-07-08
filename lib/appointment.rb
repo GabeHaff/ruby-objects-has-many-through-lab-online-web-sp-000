@@ -15,4 +15,4 @@ def self.all
   @@all
 end
 
-end #class
+end 
