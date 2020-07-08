@@ -30,7 +30,7 @@ end
 
 def patients
   self.appointments.collect do |patient| 
-    patient.doctor == self
+    patient.
   end 
 end 
 
