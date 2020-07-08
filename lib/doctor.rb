@@ -29,8 +29,8 @@ end
 end 
 
 def patients
-  self.appointments.collect do |patient| 
-    patient.
+  self.appointments.collect do |v| 
+    v.patients
   end 
 end 
 
