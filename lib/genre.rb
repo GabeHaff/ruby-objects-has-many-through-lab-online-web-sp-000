@@ -22,8 +22,12 @@ end
   
   def artists
     self.songs.collect do |song|
-      song.genre###
+      song.self
     #iterate over songs /"collect" artist
+    
+    
+    #self.songs.collect do |song|
+      #song.genre
   end 
 end 
 
