@@ -22,7 +22,9 @@ end
  # Song.new(name,self,genre)
 #end 
 
-
+def appointments
+Appointment.all.select do |appt|
+  appt.self
 end 
 
 def patients
