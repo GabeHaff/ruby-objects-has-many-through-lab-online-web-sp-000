@@ -22,7 +22,7 @@ end
   
   def artists
     self.songs.collect do |song|
-      song.self
+      song.artist
     #iterate over songs /"collect" artist
     
     
