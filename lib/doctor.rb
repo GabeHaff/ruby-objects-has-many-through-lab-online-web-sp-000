@@ -14,13 +14,8 @@ def self.all
 end 
 
 def new_appointment(date, patient)
-  Appointment.new(date ,patient ,self)
+  Appointment.new(date, patient, self)
 end 
-
-
-#def new_song(name,genre) 
- # Song.new(name,self,genre)
-#end 
 
 def appointments
 Appointment.all.select do |appt|
@@ -34,4 +29,4 @@ def patients
   end 
 end 
 
-end #classend 
+end 
