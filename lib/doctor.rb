@@ -29,8 +29,9 @@ end
 end 
 
 def patients
-  
-  #iterates over apps. and collects patients that belong to each. 
+  Patient.appointments.select do |patient| 
+    patient.doctor == self
+  end 
 end 
 
 end #classend 
