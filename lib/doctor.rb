@@ -29,7 +29,7 @@ end
 end 
 
 def patients
-  self.appointments.select do |patient| 
+  self.appointments.collect do |patient| 
     patient.doctor == self
   end 
 end 
