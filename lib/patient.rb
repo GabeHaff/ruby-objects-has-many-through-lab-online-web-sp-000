@@ -19,15 +19,13 @@ end
 def appointments
   Appointment.all.select do |appt|
     appt.patient == self 
-  #iterates through appts/returns ones with relation to self 
 end 
 end 
 
 def doctors
   self.appointments.collect do |practitioner|
     practitioner.doctor
-  #iterates over appts/collects doctor w appt relation
 end 
 end 
 
-end #class
+end
