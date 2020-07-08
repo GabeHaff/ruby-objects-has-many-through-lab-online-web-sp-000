@@ -15,6 +15,6 @@ def self.all
 end 
 
 
-end #class end 
+end 
 
 
