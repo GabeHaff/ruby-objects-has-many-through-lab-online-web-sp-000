@@ -24,7 +24,7 @@ end
 
 def appointments
 Appointment.all.select do |appt|
-  appt.self
+  appt.doctor == self 
 end 
 end 
 
