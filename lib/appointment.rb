@@ -4,8 +4,11 @@ attr_accessor :date , :patient , :doctor
 
 @@all = []
 
-def initialize(date, patient, doctor)
-  @date = 
+def initialize(date="Monday, August 1st", patient, doctor)
+  @date = date #"Monday, August 1st"
+  @patient = patient 
+  @doctor = doctor 
+  @@all << self 
   
 end 
 
