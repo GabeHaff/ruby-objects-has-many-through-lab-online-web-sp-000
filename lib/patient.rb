@@ -17,7 +17,7 @@ Appointment.new(date,self,doctor)
 end 
 
 def appointments
-  
+  Appointment.all.select do |appt|
   #iterates through appts/returns ones with relation to self 
 end 
 
