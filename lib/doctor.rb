@@ -14,9 +14,9 @@ def self.all
 end 
 
 def new_appointment(date,patient)
+  Appointment.new(date,patient,self)
+end 
 
-#date/inst of patient args 
-#creates App. w relationship to doctor 
 
 #def new_song(name,genre) 
  # Song.new(name,self,genre)
