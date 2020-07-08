@@ -12,4 +12,8 @@ def initialize(date="Monday, August 1st", patient, doctor)
   
 end 
 
+def self.all 
+  @@all
+end
+
 end #class
