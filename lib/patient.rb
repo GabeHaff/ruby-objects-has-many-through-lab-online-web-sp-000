@@ -24,8 +24,8 @@ end
 end 
 
 def doctors
-  self.appointments.collect do |dr|
-    dr.patient == self
+  self.appointments.collect do |practicitioner|
+    .patient == self
   #iterates over appts/collects doctor w appt relation
 end 
 end 
