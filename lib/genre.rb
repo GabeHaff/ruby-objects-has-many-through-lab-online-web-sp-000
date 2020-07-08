@@ -25,5 +25,6 @@ end
       song.genre###
     #iterate over songs /"collect" artist
   end 
+end 
 
 end#class end 
