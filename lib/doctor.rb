@@ -30,7 +30,7 @@ end
 
 def patients
   self.appointments.collect do |v| 
-    v.patients
+    v.patient
   end 
 end 
 
